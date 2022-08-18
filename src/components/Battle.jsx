@@ -59,16 +59,25 @@ const Battle = () => {
         setSearchParams(player());
     }, [user1, user2]);
 
+
+
+
+
+
+
+
+
+
     function userAbc() {
         if (user1.star > user2.star) {
             return [
-                { ...user1, abc: 'abc1' },
-                { ...user2, abc: 'abc2' },
+                { ...user1, abc: 'winner' },
+                { ...user2, abc: 'loser' },
             ];
         }
         return [
-            { ...user2, abc: 'abc1' },
-            { ...user1, abc: 'abc2' },
+            { ...user2, abc: 'winner' },
+            { ...user1, abc: 'loser' },
         ];
     }
 
