@@ -1,0 +1,55 @@
+.popular {
+    position: relative;
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        ul {
+            display: flex;
+        }
+        li {
+            list-style-type: none;
+            font-size: 20px;
+            position: relative;
+        }
+    }
+
+    .menu li:hover {
+        cursor: pointer;
+    }
+}
+
+.buttonMenuResource {
+    color: #0f1419;
+    margin: 0px 20px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.buttonMenuResourceActive {
+    font-weight: bold;
+}
+
+.buttonMenuResourceSelect {
+    background-color: #e7e7e8;
+}
+
+
+
+
+.buttonMenuResourceSelectFetch {
+    color: #fff;
+    background-color: rgba($color: #d0021b, $alpha: 0.5);
+}
+
+.message {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    color: #d0021b;
+    background-color: rgba($color: #d0021b, $alpha: 0.2);
+    position: absolute;
+    top: -35px;
+    padding: 3px;
+}

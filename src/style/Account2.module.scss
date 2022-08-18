@@ -1,0 +1,26 @@
+.abc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        text-align: center;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+
+
+
+    .star {
+        text-align: center;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+    }
+}

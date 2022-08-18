@@ -1,0 +1,21 @@
+.abc {
+    ul {
+        display: inline-flex;
+    }
+
+    li {
+        list-style-type: none;
+    }
+    margin: 50px 10px 50px 10px;
+}
+
+.abc1 {
+    text-decoration: none;
+    color: #d0021b;
+    margin: 0px 10px 0px 0px;
+    font-size: 20px;
+}
+
+.abc1Active {
+    font-weight: bold;
+}
